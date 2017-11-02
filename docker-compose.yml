@@ -9,7 +9,7 @@ services:
       context: .
       args:
         scala_version: "2.11"
-        kafka_version: "0.11.0.0"
+        kafka_version: "1.0.0"
     ports:
       - "9092:9092"
     environment:
